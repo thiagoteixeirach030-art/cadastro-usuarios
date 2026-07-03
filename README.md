@@ -9,7 +9,6 @@ O projeto é uma API REST utilizando Spring Boot para realizar o cadastro de usu
 ---
 
 ## Tecnologias utilizadas
-
 - Java 21
 - Spring Boot
 - Spring Web
@@ -20,7 +19,6 @@ O projeto é uma API REST utilizando Spring Boot para realizar o cadastro de usu
 ---
 
 ## Estrutura do projeto
-
 ```
 controller
 service
@@ -47,7 +45,7 @@ git clone https://github.com/SEU-USUARIO/cadastro-usuarios.git
 CadastroUsuariosApplication
 ```
 
-O projeto então fica em:
+Acessar o projeto em:
 
 ```
 http://localhost:8080
@@ -76,7 +74,7 @@ sa
 Senha
 
 ```
-(vazia)
+(Nada)
 ```
 
 ---
@@ -143,6 +141,4 @@ DELETE
 
 ---
 
-## Autor
-
-Thiago Borges Teixeira
+By Thiago Borges Teixeira
