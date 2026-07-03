@@ -1,0 +1,36 @@
+### Listar usuários
+GET http://localhost:8080/usuarios
+
+###
+
+### Buscar usuário
+GET http://localhost:8080/usuarios/1
+
+###
+
+### Criar usuário
+POST http://localhost:8080/usuarios
+Content-Type: application/json
+
+{
+  "nome":"Thiago",
+  "email":"thiago@email.com",
+  "idade":21
+}
+
+###
+
+### Atualizar usuário
+PUT http://localhost:8080/usuarios/1
+Content-Type: application/json
+
+{
+  "nome":"Thiago borges",
+  "email":"thiago@email.com",
+  "idade":22
+}
+
+###
+
+### Excluir usuário
+DELETE http://localhost:8080/usuarios/1
